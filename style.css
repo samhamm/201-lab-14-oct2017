@@ -1,0 +1,23 @@
+* {
+  color: #ddd;
+  background-color: navy;
+  font-family: Helvetica;
+}
+
+label {
+  display: block;
+}
+
+img{
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+p {
+  font-size: 0.7em;
+}
+
+h2 {
+  color: yellow;
+}

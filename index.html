@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Order: Busmall</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form id="form">
+      <fieldset>
+        <legend>BusMall Order Form</legend>
+        <fieldset>
+          <legend>Product To Order</legend>
+          <select name="product">
+            <option value="">Select an Item</option>
+            <option value="bag">R2-D2 Bag</option>
+            <option value="banana">Banana Slicer</option>
+            <option value="bathroom">iPad Bathroom Caddy</option>
+            <option value="boots">Open-toed Rain Boots</option>
+            <option value="breakfast">All-In-One Breakfast Maker</option>
+            <option value="bubblegum">Meatball Bubblegum</option>
+            <option value="chair">Poofy Chair</option>
+            <option value="cthulhu">Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn</option>
+            <option value="dog-duck">Duckbill For Dogs</option>
+            <option value="dragon">Dragon Meat</option>
+            <option value="pen">PenEaters</option>
+            <option value="pet-sweep">Pet Sweep</option>
+            <option value="scissors">Pizza Scissors</option>
+            <option value="shark">Shark Sleeping Bag</option>
+            <option value="tauntaun">TaunTaun Sleeping Bag</option>
+            <option value="unicorn">Unicorn Meat</option>
+            <option value="usb">USB Tentacle</option>
+            <option value="water-can">Infinite Watering Can</option>
+            <option value="wine-glass">Unusable Wine Glass</option>
+          </select>
+          <label>Quantity<input name="quantity" type="number"></label>
+      </fieldset>
+        <fieldset>
+          <legend>Your Information</legend>
+          <label>Name<input name="name" type="text"></label>
+          <label>Street<input name="street" type="text"></label>
+          <label>City<input name="city" type="text"></label>
+          <label>State<input name="state" type="text"></label>
+          <label>ZIP<input name="zip" type="text"></label>
+          <label>Phone<input name="phone" type="text"></label>
+          <label>Email<input name="email" type="text"></label>
+          <label>Credit Card #<input name="cc" type="text"></label>
+          <button type="submit">Add To Cart</button>
+        </fieldset>
+      </fieldset>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
